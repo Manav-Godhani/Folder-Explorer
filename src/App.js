@@ -9,6 +9,7 @@ function App() {
   
   return (
     <div className="App">
+      <center><h4>File Explorer with Dummy json data</h4></center>
       <Folder explorer={explorerData}/>
     </div>
   );
