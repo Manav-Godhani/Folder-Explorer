@@ -8,7 +8,7 @@
     background-color: rgb(232, 231, 231);
     display: flex;
     justify-content: space-between;
-    padding: 3px;
+    padding: 10px;
     width: 300px;
     cursor: pointer;
     border-radius: 10px;
@@ -27,6 +27,6 @@
 }
 
 .folderimage{
-    height: 13px;
+    height: 12px;
     margin-left: 5px;
 }
