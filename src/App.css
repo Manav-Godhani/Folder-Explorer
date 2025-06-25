@@ -1,32 +1,35 @@
-*{
-    margin-left: 5px;
-    margin-top: 10px;
 
-}
-.folder{
-    margin-top: 10px;
-    background-color: rgb(232, 231, 231);
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    width: 300px;
-    cursor: pointer;
-    border-radius: 10px;
-    border-bottom: solid rgb(165, 161, 161) 2px;
+.folder {
+  margin-top: 6px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 300px;
+  cursor: pointer;
+  border-radius: 15px;
 }
 
-.folder > span{
-    margin: 0 5px 2px 0;
+.folder > span {
+  margin: 0 5px 2px 10px;
 }
 
-.file{
-    margin-top: 5px;
-    padding-left: 5px;
-    display: flex;
-    flex-direction: column;
+.inputContainer__input > span {
+  margin-top: 5px;
 }
 
-.folderimage{
-    height: 12px;
-    margin-left: 5px;
+.inputContainer__input {
+  margin: 6px 0 0px 0;
+  padding: 5px;
+  border: 1px solid lightgray;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.file {
+  margin-top: 5px;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
 }
